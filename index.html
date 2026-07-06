@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Auoung | Personal Homepage</title>
+    <meta
+      name="description"
+      content="Auoung 的个人主页，展示个人简介、项目经历、能力方向和联系方式。"
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark">A</span>
+        <span>Auoung</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#projects">项目</a>
+        <a href="#timeline">经历</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal Homepage</p>
+          <h1>你好，我是 Auoung。</h1>
+          <p class="lead">
+            我关注技术、学习和创造，把想法整理成清晰的作品，也把复杂问题拆成可以行动的步骤。
+          </p>
+          <div class="hero-actions" aria-label="主页操作">
+            <a class="button primary" href="#projects">查看项目</a>
+            <a class="button secondary" href="#contact">联系我</a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <img src="./assets/hero.png" alt="现代工作台、电脑和笔记本构成的个人主页视觉图">
+        </figure>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>一个更完整的自我介绍区域。</h2>
+        </div>
+        <div class="about-grid">
+          <article class="panel intro-panel">
+            <h3>简介</h3>
+            <p>
+              这里可以替换成你的真实介绍：专业背景、正在研究的方向、喜欢做的事，或者你希望别人第一眼记住你的特点。
+            </p>
+          </article>
+          <article class="panel">
+            <h3>关注方向</h3>
+            <ul class="tag-list">
+              <li>软件开发</li>
+              <li>数据分析</li>
+              <li>自动化工具</li>
+              <li>产品思维</li>
+            </ul>
+          </article>
+          <article class="panel stat-panel">
+            <span class="stat">4+</span>
+            <p>可展示的项目、课程作品或实践经历</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>精选项目</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-index">01</span>
+            <h3>个人知识库</h3>
+            <p>整理学习笔记、资料索引和常用模板，帮助自己更快复用已有经验。</p>
+            <a href="#" aria-label="查看个人知识库项目">了解更多</a>
+          </article>
+          <article class="project-card">
+            <span class="project-index">02</span>
+            <h3>数据分析练习</h3>
+            <p>用表格、脚本和可视化方式拆解数据，形成清晰的结论和可复查的过程。</p>
+            <a href="#" aria-label="查看数据分析练习项目">了解更多</a>
+          </article>
+          <article class="project-card">
+            <span class="project-index">03</span>
+            <h3>自动化小工具</h3>
+            <p>把重复操作做成脚本或页面工具，减少低价值劳动，提高处理效率。</p>
+            <a href="#" aria-label="查看自动化小工具项目">了解更多</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="timeline">
+        <div class="section-heading">
+          <p class="eyebrow">Timeline</p>
+          <h2>经历与节点</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <time>2026</time>
+            <h3>搭建个人主页</h3>
+            <p>建立一个统一入口，用来展示个人介绍、作品、经历和联系方式。</p>
+          </article>
+          <article>
+            <time>2025</time>
+            <h3>积累项目和笔记</h3>
+            <p>把课程、实践、工具和研究记录沉淀成可以公开展示的内容。</p>
+          </article>
+          <article>
+            <time>Now</time>
+            <h3>持续更新</h3>
+            <p>后续可以加入博客、简历下载、项目详情页和深色模式。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>欢迎联系。</h2>
+          <p>
+            把下面的邮箱、GitHub、微信或其他链接替换成你的真实联系方式即可。
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:yourname@example.com">yourname@example.com</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" aria-label="替换为你的社交媒体链接">Social Link</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span data-year></span> Auoung</span>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
